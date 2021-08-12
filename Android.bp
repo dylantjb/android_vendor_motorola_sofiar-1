@@ -63,21 +63,9 @@ android_app_import {
 }
 
 dex_import {
-	name: "com.motorola.androidx.camera.extensions",
-	owner: "motorola",
-	jars: ["proprietary/framework/com.motorola.androidx.camera.extensions.jar"],
-}
-
-dex_import {
 	name: "com.motorola.frameworks.core.addon",
 	owner: "motorola",
 	jars: ["proprietary/framework/com.motorola.frameworks.core.addon.jar"],
-}
-
-dex_import {
-	name: "com.motorola.motosignature",
-	owner: "motorola",
-	jars: ["proprietary/framework/com.motorola.motosignature.jar"],
 }
 
 dex_import {
